@@ -1,0 +1,14 @@
+@import '0-resets/resets';
+
+@import '1-base/breakpoints';
+@import '1-base/mixins';
+@import '1-base/typography';
+@import '1-base/variables';
+
+@import '2-components/navbar';
+@import '2-components/landingPage';
+
+body {
+	background: $gray;
+	background: rgb(202, 202, 225);
+}
